@@ -1,0 +1,17 @@
+services:
+  xqora-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: xqora-devops-app
+
+    ports:
+      - "5001:5000"
+
+    environment:
+      APP_NAME: XQORA DevOps Demo
+      APP_ENV: docker
+      APP_VERSION: "1.0.0"
+
+    restart: unless-stopped
