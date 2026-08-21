@@ -1,0 +1,39 @@
+---
+- name: XQORA Local Environment Configuration
+  hosts: xqora_local
+  become: true
+
+  tasks:
+
+    - name: Ensure required packages are installed
+      apt:
+        name:
+          - curl
+          - git
+        state: present
+        update_cache: yes
+
+    - name: Ensure Docker service is running
+      service:
+        name: docker
+        state: started
+        enabled: yes
+
+    - name: Create XQORA application directory
+      file:
+        path: /opt/xqora-app
+        state: directory
+        owner: himanshu
+        group: himanshu
+        mode: '0755'
+
+    - name: Create deployment information file
+      copy:
+        content: |
+          XQORA DevOps Application
+          Managed using Ansible
+          Environment: Local
+        dest: /opt/xqora-app/deployment-info.txt
+        owner: himanshu
+        group: himanshu
+        mode: '0644'
