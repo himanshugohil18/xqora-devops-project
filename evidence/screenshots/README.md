@@ -30,9 +30,9 @@ This directory contains execution evidence and screenshots demonstrating the suc
 
 # 01 - Project Structure
 
-**Screenshot:** `01-project-structure.png`
-
 This screenshot shows the complete directory structure of the XQORA DevOps project.
+
+![Project Structure](01-project-structure.png)
 
 The project includes:
 
@@ -54,9 +54,9 @@ The screenshot also confirms that the Git repository is clean and synchronized w
 
 # 02 - GitHub Actions CI
 
-**Screenshot:** `02-github-actions-ci.png`
-
 This screenshot demonstrates successful execution of the Continuous Integration workflow.
+
+![GitHub Actions CI](02-github-actions-ci.png)
 
 The CI workflow validates the application and performs automated checks before deployment.
 
@@ -73,9 +73,9 @@ A successful workflow confirms that the application changes passed the automated
 
 # 03 - GitHub Actions CD
 
-**Screenshot:** `03-github-actions-cd.png`
-
 This screenshot demonstrates successful execution of the Continuous Deployment workflow.
+
+![GitHub Actions CD](03-github-actions-cd.png)
 
 The CD pipeline automates the deployment process after successful validation.
 
@@ -87,9 +87,9 @@ Successful execution confirms that the deployment automation completed correctly
 
 # 04 - Self-Hosted Runner
 
-**Screenshot:** `04-self-hosted-runner.png`
-
 This screenshot shows the self-hosted GitHub Actions runner configured for the project.
+
+![Self-Hosted Runner](04-self-hosted-runner.png)
 
 The runner allows GitHub Actions workflows to execute on the configured local or self-managed environment.
 
@@ -99,9 +99,9 @@ This enables deployment and automation tasks that require direct access to the t
 
 # 05 - Docker Containers
 
-**Screenshot:** `05-docker-containers.png`
-
 This screenshot shows the Docker containers running for the XQORA application environment.
+
+![Docker Containers](05-docker-containers.png)
 
 The containerized architecture allows the application and its supporting services to run in isolated and reproducible environments.
 
@@ -111,9 +111,9 @@ The screenshot verifies that the required containers are running successfully.
 
 # 06 - Application Health
 
-**Screenshot:** `06-application-health.png`
-
 This screenshot demonstrates a successful application health check.
+
+![Application Health](06-application-health.png)
 
 The health endpoint verifies that the application is reachable and responding correctly.
 
@@ -123,9 +123,9 @@ A successful health check confirms that the deployed application is operational.
 
 # 07 - Prometheus Target
 
-**Screenshot:** `07-prometheus-target.png`
-
 This screenshot shows the XQORA application or monitoring target successfully discovered by Prometheus.
+
+![Prometheus Target](07-prometheus-target.png)
 
 Prometheus periodically collects metrics from configured targets.
 
@@ -135,9 +135,9 @@ The target status confirms that the monitoring system can successfully communica
 
 # 08 - Grafana Dashboard
 
-**Screenshot:** `08-grafana-dashboard.png`
-
 This screenshot shows the Grafana monitoring dashboard configured for the project.
+
+![Grafana Dashboard](08-grafana-dashboard.png)
 
 The dashboard provides visualization of metrics collected through the monitoring stack.
 
@@ -147,9 +147,9 @@ This allows system and application behavior to be observed through centralized m
 
 # 09 - Health Check Automation
 
-**Screenshot:** `09-health-check-automation.png`
-
 This screenshot demonstrates the automated health check script.
+
+![Health Check Automation](09-health-check-automation.png)
 
 The automation verifies whether the required application or service components are available and responding correctly.
 
@@ -159,9 +159,9 @@ This reduces the need for manual service verification.
 
 # 10 - Security Check
 
-**Screenshot:** `10-security-check.png`
-
 This screenshot demonstrates execution of the automated security check.
+
+![Security Check](10-security-check.png)
 
 The script performs the security validations implemented in the XQORA DevOps project.
 
@@ -171,9 +171,9 @@ The successful result confirms that the configured security verification process
 
 # 11 - Ansible Automation
 
-**Screenshot:** `11-ansible-automation.png`
-
 This screenshot demonstrates automation performed using Ansible.
+
+![Ansible Automation](11-ansible-automation.png)
 
 The Ansible configuration includes:
 
@@ -187,9 +187,9 @@ Successful execution confirms that the defined automation tasks were completed s
 
 # 12 - Log Generation
 
-**Screenshot:** `12-log-generation.png`
-
 This screenshot demonstrates successful generation of application logs.
+
+![Log Generation](12-log-generation.png)
 
 The logging system records application events and supports multiple log severity levels, including:
 
@@ -203,9 +203,9 @@ This provides operational visibility and helps identify application events and f
 
 # 13 - Log Rotation
 
-**Screenshot:** `13-log-rotation.png`
-
 This screenshot demonstrates successful log rotation.
+
+![Log Rotation](13-log-rotation.png)
 
 The existing application log is archived with a timestamp and a new log file is created.
 
@@ -215,9 +215,9 @@ This prevents continuous growth of a single log file and helps maintain organize
 
 # 14 - Backup Created
 
-**Screenshot:** `14-backup-created.png`
-
 This screenshot demonstrates successful creation of a backup archive.
+
+![Backup Created](14-backup-created.png)
 
 The backup automation creates a compressed backup file and stores it inside the backup archive directory.
 
@@ -227,9 +227,9 @@ This provides a recoverable copy of the configured project data.
 
 # 15 - Data Restoration
 
-**Screenshot:** `15-data-restoration.png`
-
 This screenshot demonstrates successful restoration of data from the backup archive.
+
+![Data Restoration](15-data-restoration.png)
 
 The restoration process extracts the stored backup data into the configured restore location.
 
@@ -239,9 +239,9 @@ The restored files verify that the backup can be successfully recovered when req
 
 # 16 - Environment Verification
 
-**Screenshot:** `16-environment-verification.png`
-
 This screenshot demonstrates execution of the XQORA DevOps environment verification process.
+
+![Environment Verification](16-environment-verification.png)
 
 The verification checks the availability and status of the development and deployment environment, including:
 
@@ -268,9 +268,9 @@ The collected environment information is stored in:
 
 # 17 - Final Pipeline Success
 
-**Screenshot:** `17-final-pipeline-success.png`
-
 This screenshot represents the final successful verification of the XQORA DevOps workflow.
+
+![Final Pipeline Success](17-final-pipeline-success.png)
 
 It demonstrates that the major components of the project have been implemented and validated, including:
 
